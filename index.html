@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Heck-UI</title>
+  <style>
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+html, body {
+  box-sizing: border-box;
+  margin: 0;
+  height: 100%;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 2rem;
+}
+
+.section__container {
+  flex-grow: 1;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  max-width: 800px; /* temporary, until responsive integration */
+  display: flex;
+}
+
+.section__content {
+  margin: auto;
+  text-align: center;
+}
+
+.section__heading {
+  margin-top: 0; /* do in reset */
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+}
+
+.section__copy-text {
+
+}
+
+.section__cta {
+  display: inline-block;
+
+}
+
+.cover {
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* Create section for video background */
+
+  </style>
+</head>
+<body>
+
+
+  <section class="cover section section--01">
+    <div class="section__container">
+      <div class="section__content">
+        <h2 class="section__heading section__heading--02">Hello World</h2>
+        <p class="section__copy-text">I've come to help you!</p>
+        <a class="section__cta" href="#">Click here to get stuff</a>
+      </div>
+    </div>
+  </section>
+
+
+</body>
+</html>
